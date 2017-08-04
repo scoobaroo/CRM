@@ -186,7 +186,6 @@ Xrm.CRMAuth.GetHeaderOnPremise = function (url, username, password) {
                 var serverSecret = $($(req.response).find('trust\\:BinarySecret')[0]).text();
                 var created = new Date(now.setMinutes(now.getMinutes() - 1)).toISOString();
                 var expires = new Date(now.setMinutes(now.getMinutes() + 60)).toISOString();
-
                 var timestamp = '<u:Timestamp xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" u:Id="_0"><u:Created>' + created + '</u:Created><u:Expires>' + expires + '</u:Expires></u:Timestamp>';
                 var hashObj = new jsSHA(timestamp, 'TEXT');
                 var digestValue = hashObj.getHash('SHA-1', 'B64', 1);
