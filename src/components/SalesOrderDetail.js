@@ -7,9 +7,6 @@ import React, { Component } from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { connect } from 'react-redux';
 import { getTheme } from 'react-native-material-kit';
-import EvilIcon from 'react-native-vector-icons/EvilIcons';
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
-import SimpleIcon from 'react-native-vector-icons/SimpleLineIcons';
 import { MKTextField, MKColor, MKButton} from 'react-native-material-kit';
 import * as actions from '../actions';
 

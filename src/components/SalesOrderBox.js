@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Text, Button, View, StyleSheet, Image, TouchableHighlight, NavigatorIOS } from 'react-native';
 import { connect } from 'react-redux';
 import { getTheme } from 'react-native-material-kit';
-import Icon from 'react-native-vector-icons/EvilIcons';
 import * as actions from '../actions';
 import { MKTextField, MKColor, MKButton } from 'react-native-material-kit';
 import Loader from './Loader';

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Button, Text, View, StyleSheet, Image, ListView, ScrollView, TouchableWithoutFeedback } from 'react-native';
 import { connect } from 'react-redux';
-import Icon from 'react-native-vector-icons/EvilIcons';
 import * as actions from '../actions';
 import { MKTextField, MKColor, MKButton, getTheme } from 'react-native-material-kit';
 import Loader from './Loader';
