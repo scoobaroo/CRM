@@ -1,0 +1,25 @@
+{
+    "am_DesignWinPriceListItem": {
+        "Id": "5a5517b8-1782-e511-938e-d89d672a096c",
+        "LogicalName": "pt_designwinpricelistitem",
+        "Name": "IS45S16400J-6BLA2 (N)"
+    },
+    "SalesOrderId": {
+        "Id": "467b8c79-9b08-4955-bb0f-502cf2121a22",
+        "LogicalName": "salesorder",
+        "Name": null
+    },
+    "Quantity": "348.0000000000",
+    "new_DeviceSPA": {
+        "Id": "6b7912cf-0269-e511-86a6-2c44fd7fac90",
+        "LogicalName": "am_productdevicespacombination",
+        "Name": "N"
+    },
+    "PricePerUnit": {
+        "Value": "1.1500"
+    },
+    "SalesOrderDetailId": "9d62a5d7-89a1-43f2-acc5-0000e7d230f1",
+    "BaseAmount": {
+        "Value": "400.2000"
+    }
+}
