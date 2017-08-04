@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Button, Text, View, StyleSheet, ListView, NavigatorIOS } from 'react-native';
 import { connect } from 'react-redux';
 import _ from 'lodash';
-import Icon from 'react-native-vector-icons/EvilIcons';
 import { loadOrders } from '../actions';
 import SalesOrderBox from './SalesOrderBox';
 import { StackNavigator } from 'react-navigation';

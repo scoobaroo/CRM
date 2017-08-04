@@ -110,6 +110,7 @@ export default class Login extends Component {
         // .catch(function(err){
         //     console.log(err);
         // })
+        this.onAuthSuccess();
     }
 
     onAuthSuccess() {
