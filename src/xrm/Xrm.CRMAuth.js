@@ -134,7 +134,7 @@ Xrm.CRMAuth.GetHeaderOnPremise = function (url, username, password) {
     var adfsUrl = Xrm.CRMAuth.GetADFS(url);
     var now = new Date();
     var urnAddress = url + 'XRMServices/2011/Organization.svc';
-    var usernamemixed = "https://adfs.issi.com/adfs/services/trust/13/usernamemixed";
+    var usernamemixed = "https://adfs-test.issi.com/adfs/services/trust/13/usernamemixed";
     var xml = [];
     xml.push('<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">');
     xml.push('<s:Header>');
@@ -175,7 +175,7 @@ Xrm.CRMAuth.GetHeaderOnPremise = function (url, username, password) {
     req.setRequestHeader('Content-Type', 'application/soap+xml; charset=UTF-8');
     req.onreadystatechange = function () {
         if (req.readyState === 4) {
-            console.log("GetHeadersOnPremise req:")
+            console.log("GetHeaderOnPremise req:")
             console.log(req);
             if (req.status === 200) {
                 var token0 = $(req.response).find('e\\:CipherValue');
@@ -195,6 +195,8 @@ Xrm.CRMAuth.GetHeaderOnPremise = function (url, username, password) {
                 var signatureValue = shaObj.getHMAC(serverSecret, 'B64', 'SHA-1', 'B64');
                 authentication.TokenExpires = $(req.response).find('wsu\\:Expires:first').text();
                 authentication.Header = Xrm.CRMAuth.CreateSOAPHeaderOnPremise(url, $(keyIdentifer[0]).text(), $(token0[0]).text(), $(token1[0]).text(), $(issuerNameX509[0]).text(), $(serialNumberX509[0]).text(), signatureValue, digestValue, created, expires);
+                console.log("YESS!! got the authentication object:");
+                console.log(authentication);
             }
         }
     };
@@ -299,7 +301,7 @@ Xrm.CRMAuth.GetADFS = function (url) {
     // };
     // req.send();
     // return $(adfsUrl[0]).text().replace('http://', 'https://');
-    return 'https://adfs.issi.com/adfs/services/trust';
+    return 'https://adfs-test.issi.com/adfs/services/trust';
 };
 
 /// <summary>Creates a GUID.</summary>

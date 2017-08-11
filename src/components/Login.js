@@ -86,10 +86,15 @@ export default class Login extends Component {
         req.setRequestHeader("Content-Type", "application/soap+xml; charset=utf-8");
         req.onreadystatechange = function () {
             if (req.readyState === 4) {
-                console.log('req:')
-                console.log(req)
+                console.log('req:');
+                console.log(req);
+                console.log("response: ");
+                console.log(req._response);
                 if (req.status === 200) {
                     //Handle the response
+                    var response = req._response;
+                    console.log("RESPONSE WOOHOO: ");
+                    console.log(response);
                     this.onAuthSuccess();
                 }
             } else {
@@ -97,11 +102,6 @@ export default class Login extends Component {
                 this.onAuthFailed();
             }
         };
-        let config = {
-            headers: {
-                "Content-Type":  "application/soap+xml; charset=utf-8"
-            }
-        }
         req.send(request);
         // axios.post(url + "XRMServices/2011/Organization.svc",request,config)
         // .then(function(response){
@@ -110,7 +110,6 @@ export default class Login extends Component {
         // .catch(function(err){
         //     console.log(err);
         // })
-        this.onAuthSuccess();
     }
 
     onAuthSuccess() {
