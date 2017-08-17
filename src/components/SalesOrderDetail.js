@@ -1,8 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
 import React, { Component } from 'react';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { connect } from 'react-redux';
@@ -37,10 +32,11 @@ const styles = StyleSheet.create({
     width: 125
   },
   title:{
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold'
   }
 });
+
 class SalesOrderDetail extends Component {
   constructor(props){
     super(props);
@@ -52,13 +48,13 @@ class SalesOrderDetail extends Component {
     return (
       <View style = {styles.container}>
         <Text style = {styles.title}> Sales Order Detail </Text>
-        <Text style= {styles.labelText}> Sales Order Detail ID </Text>
+        {/* <Text style= {styles.labelText}> Sales Order Detail ID </Text>
         <Text style = {styles.baseText}> {this.props.salesorderdetail.salesorderdetailid} </Text>
         <Text style= {styles.labelText}> Parent Sales Order ID </Text>
-        <Text style = {styles.baseText}> {this.props.salesorderdetail.salesorderid} </Text>
-        <Text style= {styles.labelText}> Sales Product </Text>
+        <Text style = {styles.baseText}> {this.props.salesorderdetail.salesorderid} </Text> */}
+        <Text style= {styles.labelText}> Product </Text>
         <Text style = {styles.baseText}> {this.props.salesorderdetail.product} </Text>
-        <Text style= {styles.labelText}> Sales Device SPA </Text>
+        <Text style= {styles.labelText}> Device SPA </Text>
         <Text style = {styles.baseText}> {this.props.salesorderdetail.devicespa} </Text>
         <Text style= {styles.labelText}> Quantity </Text>
         <Text style = {styles.baseText}> {this.props.salesorderdetail.quantity} </Text>

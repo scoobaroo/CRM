@@ -1,0 +1,1501 @@
+[{
+        "am_SalesManager": {
+            "Id": "54481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Daxiao Wu"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "54481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Daxiao Wu"
+        },
+        "am_EndCustomer": {
+            "Id": "2a767cbc-6864-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Fujian Start Computer Equipment Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 11
+        },
+        "Name": "4/21/2016-Fujian Start Computer Equipment Co Ltd-ORD-13441-V9Z0Z7",
+        "am_ApprovalStaus": {
+            "Value": 2
+        },
+        "SalesOrderId": "20d41925-a47d-477f-9bc2-000afe521510",
+        "CustomerId": {
+            "Id": "b12d33ee-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sertek Incorporated"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "f79e76bd-a172-e511-86a6-2c44fd7fac90",
+            "LogicalName": "systemuser",
+            "Name": "Ricky Yang"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "54481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Daxiao Wu"
+        },
+        "am_EndCustomer": {
+            "Id": "53a69145-c764-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Coagent Enterprise Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/25/2016-Coagent Enterprise Ltd-ORD-21150-T5C4V3",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "b6f6241f-ee6a-e611-820f-000c293ddc16",
+        "CustomerId": {
+            "Id": "c42d33ee-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guangzhou Yosan Electric Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "f79e76bd-a172-e511-86a6-2c44fd7fac90",
+            "LogicalName": "systemuser",
+            "Name": "Ricky Yang"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "0c481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bruce Yuan"
+        },
+        "am_EndCustomer": {
+            "Id": "749b33e6-b8bb-e511-a6a9-d89d672a096c",
+            "LogicalName": "account",
+            "Name": "Abaco Systems"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "9/8/2016-Abaco Systems-ORD-21154-D6N9H8",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "f1ac6e6f-0c76-e611-820f-000c293ddc16",
+        "CustomerId": {
+            "Id": "8ab6b4c4-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HongKong Sunrise International CO., Limited"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "24481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Glenn Louch"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "24481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Glenn Louch"
+        },
+        "am_EndCustomer": {
+            "Id": "f0ebd3e0-390c-4703-8444-9b9124009691",
+            "LogicalName": "account",
+            "Name": " Informtechnika"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/27/2017- Informtechnika-ORD-21226-H2Z9R9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "03b64432-3cfd-e611-8a86-000c293ddc16",
+        "CustomerId": {
+            "Id": "9ba56bf4-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ActiveRep GmbH"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "bdfdf3ae-421e-47c8-8c02-1cdc8a405c54",
+            "LogicalName": "account",
+            "Name": " K-Free technology limited"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "2/27/2017- K-Free technology limited-ORD-21227-B9G5J8",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "a1a6c3ac-52fd-e611-8a86-000c293ddc16",
+        "CustomerId": {
+            "Id": "62516910-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd. - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "1c481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Johny Sjafii"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "1c481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Johny Sjafii"
+        },
+        "am_EndCustomer": {
+            "Id": "17dd8249-6764-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Smart Modular Technologies Inc"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "3/8/2017-Smart Modular Technologies Inc-ORD-21228-J4K2W8",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "d9102e89-3e04-e711-8a86-000c293ddc16",
+        "CustomerId": {
+            "Id": "2ae88feb-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "SMART MODULAR TECHNOLOGIES  (MY) (IPC) - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "24481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Glenn Louch"
+        },
+        "am_EndCustomer": {
+            "Id": "f3a60e07-bb64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Festo Ag  Co  Kg"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "7/16/2017-Festo Ag  Co  Kg-ORD-21268-F5L1V7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "798e4c0a-a46a-e711-8e3c-000c293ddc16",
+        "CustomerId": {
+            "Id": "9ba56bf4-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ActiveRep GmbH"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "4daca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Yi-Ching Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "7/19/2017-Sharp Corp-ORD-21270-K1D2K2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "cb726cf9-626c-e711-8e3c-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "dd4f17ca-0b4d-e611-9883-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Chasel Liu"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "22481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Marco Carlino"
+        },
+        "am_EndCustomer": {
+            "Id": "b7805f98-4364-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Bernecker & Rainer"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/6/2017-Bernecker & Rainer-ORD-21212-H7W8T0",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "30e150c7-0aed-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d67dc516-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ARROW NORDIC COMPONENTS AB - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "dd4f17ca-0b4d-e611-9883-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Chasel Liu"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "22481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Marco Carlino"
+        },
+        "am_EndCustomer": {
+            "Id": "b7805f98-4364-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Bernecker & Rainer"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/7/2017-Bernecker & Rainer-ORD-21213-F8B1Y3",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "2bd11595-17ed-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d67dc516-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ARROW NORDIC COMPONENTS AB - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "dd4f17ca-0b4d-e611-9883-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Chasel Liu"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "22481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Marco Carlino"
+        },
+        "am_EndCustomer": {
+            "Id": "b7805f98-4364-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Bernecker & Rainer"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/7/2017-Bernecker & Rainer-ORD-21214-L1K2L2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "4b721d06-1aed-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d67dc516-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ARROW NORDIC COMPONENTS AB - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "1e481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roland Vollmer"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/9/2017- WinMate Inc.-ORD-21215-C8R5V0",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "6e55b640-02ef-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "21704a1d-3224-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Alice Cheng"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "12481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "JR Lee"
+        },
+        "am_EndCustomer": {
+            "Id": "988b37fa-f8e4-4503-ae0e-bbfd16d23677",
+            "LogicalName": "account",
+            "Name": "DAWOO C&D TECH CO.,LTD"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "2/9/2017-DAWOO C&D TECH CO.,LTD-ORD-21216-T8S7J3",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "bdf308b4-0def-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "6aef17e2-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Arrow Electronics Korea Ltd"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "12481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "JR Lee"
+        },
+        "am_EndCustomer": {
+            "Id": "988b37fa-f8e4-4503-ae0e-bbfd16d23677",
+            "LogicalName": "account",
+            "Name": "DAWOO C&D TECH CO.,LTD"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/9/2017-DAWOO C&D TECH CO.,LTD-ORD-21217-M6G6V7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "d7ba7eed-0def-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "6aef17e2-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Arrow Electronics Korea Ltd"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "44481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Simon Yang"
+        },
+        "am_EndCustomer": {
+            "Id": "b7805f98-4364-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Bernecker & Rainer"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017-Bernecker & Rainer-ORD-21218-C7D2C7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "0c274a5e-25f4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d67dc516-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ARROW NORDIC COMPONENTS AB - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "f41f0988-8f91-e511-938e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Miranda Cheng"
+        },
+        "am_EndCustomer": {
+            "Id": "b7805f98-4364-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Bernecker & Rainer"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017-Bernecker & Rainer-ORD-21219-N3F7D2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "7e7ddf47-29f4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d67dc516-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ARROW NORDIC COMPONENTS AB - HUB REPLENISHME"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "44481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Simon Yang"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017- WinMate Inc.-ORD-21220-J6D9H9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "ed195a66-2ef4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "f41f0988-8f91-e511-938e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Miranda Cheng"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017- WinMate Inc.-ORD-21221-X4M4D8",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "1651cdec-2ff4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "f41f0988-8f91-e511-938e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Miranda Cheng"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017- WinMate Inc.-ORD-21222-X3Z2Q0",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "df4eb079-30f4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "44481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Simon Yang"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017- WinMate Inc.-ORD-21223-R7X9T6",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "9d6f36aa-b7f4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "44481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Simon Yang"
+        },
+        "am_EndCustomer": {
+            "Id": "fa79c9aa-fdb6-48ef-84f4-82bb21c8c093",
+            "LogicalName": "account",
+            "Name": " WinMate Inc."
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/16/2017- WinMate Inc.-ORD-21224-K1S1N7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "b1c656ff-b7f4-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "d2f8cb1c-ea67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "EBV ELEKTRONIK GMBH & CO KG"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": "2e481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Isabelle Silva"
+        },
+        "am_EndCustomer": {
+            "Id": "3381563d-b964-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Kontron Europe Gmbh"
+        },
+        "am_OrderStatus": {
+            "Value": 7
+        },
+        "Name": "2/21/2017-Kontron Europe Gmbh-ORD-21225-P7Q5K6",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "2da6506a-8ef8-e611-8eb1-000c293ddc16",
+        "CustomerId": {
+            "Id": "b7f27516-f467-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "M2S Tech"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "1e77e982-9cea-4d38-b450-a750c78676a6",
+            "LogicalName": "account",
+            "Name": "K-Phone Technology Co.,Ltd."
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/1/2017-K-Phone Technology Co.,Ltd.-ORD-21278-M2V1M4",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "cb18386d-4777-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "1e77e982-9cea-4d38-b450-a750c78676a6",
+            "LogicalName": "account",
+            "Name": "K-Phone Technology Co.,Ltd."
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-K-Phone Technology Co.,Ltd.-ORD-21279-B1C4F3",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "53c1d4a6-5177-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Sharp Corp-ORD-21280-S9S6D9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "2d298129-6077-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Sharp Corp-ORD-21281-H0Y8Z0",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e994733e-6377-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Sharp Corp-ORD-21282-Y3W0R0",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e6c4a779-8c77-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Sharp Corp-ORD-21283-Q9J1C1",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e690b06c-8d77-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Sharp Corp-ORD-21284-G4Z9Z7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "4bde98b8-ea77-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21286-Z3C9C9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "0950316d-0e78-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21287-F5Y9P1",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "796acf57-0f78-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21288-Q7N5W1",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "b926ea84-0f78-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21289-S9P2K8",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e55f19aa-1178-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21290-G4V8J7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "75949834-1278-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21291-J8Z8L3",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "77d961c6-1378-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7e937e68-7164-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Guide Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/2/2017-Guide Technology Co Ltd-ORD-21292-R7R2F9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "d02a44f2-1778-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "36481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Carrie Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/3/2017-IPO Tech Ltd-ORD-21297-S5T0Q9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "7fa993de-7378-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_ISSISalesPerson": {
+            "Id": null,
+            "LogicalName": null,
+            "Name": null
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/3/2017-IPO Tech Ltd-ORD-21301-W8G7G7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "f77612f7-9678-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "1e77e982-9cea-4d38-b450-a750c78676a6",
+            "LogicalName": "account",
+            "Name": "K-Phone Technology Co.,Ltd."
+        },
+        "am_OrderStatus": {
+            "Value": 5
+        },
+        "Name": "8/3/2017-K-Phone Technology Co.,Ltd.-ORD-21305-V6M5W5",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e0448db9-bc78-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "45704a1d-3224-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Stephanie Tai"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "64481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Fred Long"
+        },
+        "am_EndCustomer": {
+            "Id": "a4172b57-59b6-4a96-9d64-58c0e1fbe0d3",
+            "LogicalName": "account",
+            "Name": "3C CONCEPT"
+        },
+        "am_OrderStatus": {
+            "Value": 5
+        },
+        "Name": "8/3/2017-3C CONCEPT-ORD-21306-Y3J2X1",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "cf200acb-d678-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "05a67bfa-e767-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Arrow Nordic Components AB - HK Branch - HUB"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/4/2017-Sharp Corp-ORD-21307-T1P3P7",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "f04cf95d-2a79-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/7/2017-Sharp Corp-ORD-21308-D2S9Z1",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "48438efd-497b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "66dd6adf-194a-e711-a5a8-000c293ddc16",
+            "LogicalName": "systemuser",
+            "Name": "Eric Han"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "18481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Bee-Peng Tan"
+        },
+        "am_EndCustomer": {
+            "Id": "192c9711-5a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Sharp Corp"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/7/2017-Sharp Corp-ORD-21309-C7Y1J5",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "1557af71-4a7b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "d05a4cfe-e967-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Hakuto Co., Ltd."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "36481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Carrie Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/7/2017-IPO Tech Ltd-ORD-21314-T9Z9G9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "c993fce3-637b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "36481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Carrie Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/7/2017-IPO Tech Ltd-ORD-21315-C6L7Q2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "1977b74f-647b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "36481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Carrie Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 5
+        },
+        "Name": "8/7/2017-IPO Tech Ltd-ORD-21316-N1W1J2",
+        "am_ApprovalStaus": {
+            "Value": 2
+        },
+        "SalesOrderId": "297e7d1c-657b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "36481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Carrie Tsai"
+        },
+        "am_EndCustomer": {
+            "Id": "db79bc69-6564-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "IPO Tech Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 5
+        },
+        "Name": "8/7/2017-IPO Tech Ltd-ORD-21317-J7X1V1",
+        "am_ApprovalStaus": {
+            "Value": 2
+        },
+        "SalesOrderId": "c922389e-667b-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "264184d6-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "ATM ELECTRONIC CORP."
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "77d7e49a-4a64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Foxconn Technology Co Ltd"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/8/2017-Foxconn Technology Co Ltd-ORD-21329-J8K8R2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "12ab70ec-177c-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7c59f9ec-6f64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Cc&c Technologies Inc"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/9/2017-Cc&c Technologies Inc-ORD-21343-W3L9F9",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "e0f1b6ba-557d-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    },
+    {
+        "am_SalesManager": {
+            "Id": "56aca56d-2cf9-e411-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Mool Tyagi"
+        },
+        "am_ISSISalesPerson": {
+            "Id": "34481273-2011-e511-995e-d89d672a096c",
+            "LogicalName": "systemuser",
+            "Name": "Roger Huang"
+        },
+        "am_EndCustomer": {
+            "Id": "7c59f9ec-6f64-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "Cc&c Technologies Inc"
+        },
+        "am_OrderStatus": {
+            "Value": 1
+        },
+        "Name": "8/9/2017-Cc&c Technologies Inc-ORD-21344-F2K0J2",
+        "am_ApprovalStaus": {
+            "Value": 1
+        },
+        "SalesOrderId": "a0a97fa6-567d-e711-928b-000c293ddc16",
+        "CustomerId": {
+            "Id": "290806f7-ed67-e511-86a6-2c44fd7fac90",
+            "LogicalName": "account",
+            "Name": "HO YOUNG ELECTRONICS CO., LTD"
+        }
+    }
+]

@@ -61,10 +61,11 @@ export default class Login extends Component {
         });
         var domain = 'issi';
         var url = "https://crmsbx.issi.com/";
-        var formUsername = {username};
-        var formPassword = {password};
+        var formUsername = username;
+        var formPassword = password;
         var CRMSoapAuthentication = Xrm.CRMAuth.GetHeaderOnPremise(url, domain, formUsername, formPassword);
-
+        // var CRMSoapAuthentication = Xrm.CRMAuth.GetHeaderOnline(url, formUsername, formPassword);
+        
         var body = [];
         body.push('<s:Body>');
         body.push('<Execute xmlns="http://schemas.microsoft.com/xrm/2011/Contracts/Services">');
@@ -91,25 +92,17 @@ export default class Login extends Component {
                 console.log("response: ");
                 console.log(req._response);
                 if (req.status === 200) {
-                    //Handle the response
                     var response = req._response;
                     console.log("RESPONSE WOOHOO: ");
                     console.log(response);
                     this.onAuthSuccess();
                 }
             } else {
-                //Error
                 this.onAuthFailed();
             }
         };
         req.send(request);
-        // axios.post(url + "XRMServices/2011/Organization.svc",request,config)
-        // .then(function(response){
-        //     console.log(response);
-        // })
-        // .catch(function(err){
-        //     console.log(err);
-        // })
+        this.onAuthSuccess();
     }
 
     onAuthSuccess() {

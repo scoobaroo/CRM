@@ -111,8 +111,8 @@ class SalesOrderItem extends Component {
         contentContainerStyle={styles.container}
         // onPress={() => props.selectSalesOrder({this.props.navigation.state.params.salesorder.salesorderid})}
         >
-        <Text style={styles.labelText}> Sales Order ID: </Text>
-        <Text style={styles.baseText}>  {this.props.navigation.state.params.salesorder.salesorderid} </Text>
+        <Text style={styles.labelText}> Sales Order Name: </Text>
+        <Text style={styles.baseText}>  {this.props.navigation.state.params.salesorder.name} </Text>
         <Text style={styles.labelText}> ISSI Sales Manager: </Text>
         <Text style={styles.baseText}> {this.props.navigation.state.params.salesorder.issisalesmanager} </Text>
         <Text style={styles.labelText}> ISSI Sales Person: </Text>

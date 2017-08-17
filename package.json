@@ -8,7 +8,8 @@
   "dependencies": {
     "axios": "^0.16.2",
     "install": "^0.10.1",
-    "jquery": "^3.2.1",
+    "jquery": "^1.8.2",
+    "jsdom": "^11.1.0",
     "jssha": "^2.3.1",
     "lodash": "^4.17.4",
     "npm": "^5.3.0",

@@ -51,16 +51,21 @@ Xrm.CRMAuth.GetHeaderOnline = function (url, username, password) {
     var authentication = {};
     var request = xml.join('');
     var req = new XMLHttpRequest();
-    req.open('POST', 'https://login.microsoftonline.com/RST2.srf', false);
+    req.open('POST', 'https://login.microsoftonline.com/RST2.srf', true);
     req.setRequestHeader('Connection', 'Keep-Alive');
     req.setRequestHeader('Content-Type', 'application/soap+xml; charset=UTF-8');
     req.onreadystatechange = function () {
         if (req.readyState === 4) {
             if (req.status === 200) {
-                var token = $(req.response).find('CipherValue');
-                var keyIdentifer = $(req.response).find('wsse\\:KeyIdentifier:first');
-                authentication.TokenExpires = $(req.response).find('wsu\\:Expires:first').text();
-                authentication.Header = Xrm.CRMAuth.CreateSOAPHeaderOnline(url, $(keyIdentifer).text(), $(token[0]).text(), $(token[1]).text());
+                alert(req.response);
+                console.log("CRMGetHeaderOnine request: ");
+                console.log(req);
+                console.log("CRMGetHeaderOnline Response: ");
+                console.log(req.response);
+                // var token = $(req.response).find('CipherValue');
+                // var keyIdentifer = $(req.response).find('wsse\\:KeyIdentifier:first');
+                // authentication.TokenExpires = $(req.response).find('wsu\\:Expires:first').text();
+                // authentication.Header = Xrm.CRMAuth.CreateSOAPHeaderOnline(url, $(keyIdentifer).text(), $(token[0]).text(), $(token[1]).text());
             }
         }
     };

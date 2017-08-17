@@ -7,15 +7,43 @@ import SalesOrderBox from './SalesOrderBox';
 import { StackNavigator } from 'react-navigation';
 import { MKTextField, MKColor, MKButton } from 'react-native-material-kit';
 
-var sampleSalesOrderRequest = require('../reducers/sampleSalesOrderRequest.json');
-console.log(sampleSalesOrderRequest);
-sampleSalesOrderRequest.map((order)=>{
+var salesOrderRequest = require('../reducers/salesOrderRequest.json');
+console.log(salesOrderRequest);
+salesOrderRequest.map((order)=>{
+  order.name = order.Name;
   order.issisalesmanager = order.am_SalesManager.Name;
   order.issisalesperson = order.am_ISSISalesPerson.Name;
   order.salesorderid = order.SalesOrderId;
   order.customer = order.CustomerId.Name;
   order.endcustomer = order.am_EndCustomer.Name;
   order.orderstatus = order.am_OrderStatus.Value;
+  if(order.orderstatus==8){
+    order.orderstatus = "In Review - Sales Person"
+  } else if( order.orderstatus == 9) {
+    order.orderstatus = "In Review - Sales Manager"
+  } else if( order.orderstatus == 10) {
+    order.orderstatus = "In Review - Marketing"
+  } else if( order.orderstatus == 5) {
+    order.orderstatus = "In Review - CSR"
+  } else if( order.orderstatus == 1) {
+    order.orderstatus = "Draft";
+  } else if( order.orderstatus == 100000001) {
+    order.orderstatus = "Submit for Approval"
+  } else if( order.orderstatus == 100000002) {
+    order.orderstatus = "Approved"
+  } else if( order.orderstatus == 4) {
+    order.orderstatus = "Denied"
+  } else if( order.orderstatus == 7) {
+    order.orderstatus = "Ready for AX"
+  } else if( order.orderstatus == 11) {
+    order.orderstatus = "Order Created in AX"
+  } else if( order.orderstatus == 12) {
+    order.orderstatus = "Canceled"
+  } else if( order.orderstatus == 3) {
+    order.orderstatus = "Invoiced"
+  } else if( order.orderstatus == 2) {
+    order.orderstatus = "Shipped"
+  }
   return order
 });
 
@@ -94,7 +122,7 @@ class SalesOrderList extends Component {
   constructor(props){
     super(props);
     this.state= {
-      sampleSalesOrderRequest,
+      salesOrderRequest,
       loading:false
     }
     // store.dispatch({
@@ -112,7 +140,7 @@ class SalesOrderList extends Component {
     //   this.props.loadInitialSalesOrders();
     // }
   filterByOrderStatus = (status) => {
-    let newList = sampleSalesOrderRequest.filter(salesorder => {
+    let newList = salesOrderRequest.filter(salesorder => {
         return salesorder.orderstatus == status;
     })
     this.dataSource = ds.cloneWithRows(newList);
@@ -133,7 +161,7 @@ class SalesOrderList extends Component {
   })
 
   renderView() {
-    this.dataSource = ds.cloneWithRows(sampleSalesOrderRequest);
+    this.dataSource = ds.cloneWithRows(salesOrderRequest);
     return (
         <ListView
           automaticallyAdjustContentInsets={false}

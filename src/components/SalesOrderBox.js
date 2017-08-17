@@ -55,7 +55,7 @@ class SalesOrderBox extends Component {
   }
 
   buttonStyle(){
-    if(this.props.salesorder.orderstatus==1){
+    if(this.props.salesorder.orderstatus=='Draft'){
       return {
         backgroundColor: MKColor.Green,
         borderColor: MKColor.Green,
@@ -64,16 +64,7 @@ class SalesOrderBox extends Component {
         padding: 3
       }
     }
-    else if(this.props.salesorder.orderstatus==7){
-      return {
-        backgroundColor: MKColor.Blue,
-        borderColor: MKColor.Blue,
-        borderWidth: 10,
-        borderRadius: 10,
-        padding: 3
-      };
-    }
-    else if(this.props.salesorder.orderstatus==8){
+    else if(this.props.salesorder.orderstatus=='In Review - Sales Person'){
       return {
         backgroundColor: MKColor.Orange,
         borderColor: MKColor.Orange,
@@ -82,7 +73,7 @@ class SalesOrderBox extends Component {
         padding: 3
       };
     }
-    else if(this.props.salesorder.orderstatus==9){
+    else if(this.props.salesorder.orderstatus=='In Review - Sales Manager'){
       return {
         backgroundColor: MKColor.Yellow,
         borderColor: MKColor.Yellow,
@@ -91,7 +82,7 @@ class SalesOrderBox extends Component {
         padding: 3
       };
     }
-    else if(this.props.salesorder.orderstatus==10){
+    else if(this.props.salesorder.orderstatus=='In Review - Marketing'){
       return {
         backgroundColor: MKColor.Purple,
         borderColor: MKColor.Purple,
@@ -100,7 +91,25 @@ class SalesOrderBox extends Component {
         padding: 3
       };
     }
-    else if(this.props.salesorder.orderstatus==11){
+    else if(this.props.salesorder.orderstatus=='In Review - CSR'){
+      return {
+        backgroundColor: MKColor.DeepOrange,
+        borderColor: MKColor.DeepOrange,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Ready for AX'){
+      return {
+        backgroundColor: MKColor.Blue,
+        borderColor: MKColor.Blue,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Order Created in AX'){
       return {
         backgroundColor: MKColor.Teal,
         borderColor: MKColor.Teal,
@@ -109,7 +118,62 @@ class SalesOrderBox extends Component {
         padding: 3
       };
     }
+    else if(this.props.salesorder.orderstatus=='Canceled'){
+      return {
+        backgroundColor: MKColor.Red,
+        borderColor: MKColor.Red,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Invoiced'){
+      return {
+        backgroundColor: MKColor.Pink,
+        borderColor: MKColor.Pink,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Shipped'){
+      return {
+        backgroundColor: MKColor.DeepPurple,
+        borderColor: MKColor.DeepPurple,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Approved'){
+      return {
+        backgroundColor: MKColor.Cyan,
+        borderColor: MKColor.Cyan,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Denied'){
+      return {
+        backgroundColor: MKColor.Amber,
+        borderColor: MKColor.Amber,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
+    else if(this.props.salesorder.orderstatus=='Submit for Approval'){
+      return {
+        backgroundColor: MKColor.Indigo,
+        borderColor: MKColor.Indigo,
+        borderWidth: 10,
+        borderRadius: 10,
+        padding: 3
+      };
+    }
   }
+
   render() {
     let salesorder = this.props.salesorder;
     const { navigate } = this.props.navigation;
@@ -121,8 +185,8 @@ class SalesOrderBox extends Component {
         activeOpacity={0.7}
         navigation = {this.props.navigation}>
         <View style = {this.buttonStyle()}>
-          <Text style={styles.labelText}> Sales Order ID: </Text>
-          <Text style={styles.buttonText}>  {this.props.salesorder.salesorderid} </Text>
+          <Text style={styles.labelText}> Sales Order Name: </Text>
+          <Text style={styles.buttonText}> {this.props.salesorder.name} </Text>
           <Text style={styles.labelText}> ISSI Sales Manager: </Text>
           <Text style={styles.buttonText}> {this.props.salesorder.issisalesmanager} </Text>
           <Text style={styles.labelText}> ISSI Sales Person: </Text>

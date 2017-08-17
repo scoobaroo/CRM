@@ -19,13 +19,7 @@ const styles = StyleSheet.create({
   },
 });
 
-// let initialNavState = AppNavigator.router.getStateForAction(
-//   NavigationActions.init()
-// );
-
 // const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(), applyMiddleware(Thunk));
-
-// console.log(store.getState());
 
 export default class App extends Component {
   constructor(props) {
