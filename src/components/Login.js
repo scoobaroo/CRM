@@ -126,6 +126,7 @@ export default class Login extends Component {
             loading: false,
             loggedIn: false
         });
+        alert(this.state.error);
         this.props.updateAppState({loggedIn: false});
         this.props.navigation.navigate('App');
     }
@@ -157,9 +158,6 @@ export default class Login extends Component {
                 tintColor={MKColor.Teal}
                 password={true}
             />
-            <Text style={errorMessage}>
-                {this.state.error}
-            </Text>
             <View style={loginButtonArea}>
                 <LoginButton onPress={this.onButtonPress.bind(this)} />
             </View>

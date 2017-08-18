@@ -6,7 +6,7 @@ import { loadOrders } from '../actions';
 import SalesOrderBox from './SalesOrderBox';
 import { StackNavigator } from 'react-navigation';
 import { MKTextField, MKColor, MKButton } from 'react-native-material-kit';
-import firebase from 'firebase';
+import * as firebase from 'firebase';
 
 var salesOrderRequest = require('../reducers/salesOrderRequest.json');
 console.log(salesOrderRequest);
@@ -157,7 +157,7 @@ class SalesOrderList extends Component {
     headerRight: <Button title="Logout" onPress = {() => 
                                           firebase.auth().signOut().then(function() {
                                             navigation.navigate('App')
-                                            alert("Successfully Signed Out!");
+                                            alert("Successfully Signed Out");
                                           }, function(error) {
                                             alert(error);
                                             console.log(error);

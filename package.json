@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "firebase": "^4.3.0",
     "install": "^0.10.1",
     "jquery": "^1.8.2",
     "jsdom": "^11.1.0",
@@ -17,6 +18,7 @@
     "react-native": "0.42.3",
     "react-native-icon": "^0.2.10",
     "react-native-material-kit": "^0.4.1",
+    "react-native-modal": "^2.5.0",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",

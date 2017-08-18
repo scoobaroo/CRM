@@ -51,8 +51,9 @@ class SalesOrderBox extends Component {
 
   constructor(props){
     super(props);
-    this.state ={}
   }
+
+  state = {};
 
   buttonStyle(){
     if(this.props.salesorder.orderstatus=='Draft'){
@@ -154,7 +155,7 @@ class SalesOrderBox extends Component {
         padding: 3
       };
     }
-    else if(this.props.salesorder.orderstatus=='Denied'){
+    else if(this.props.salesorder.orderstatus=='Rejected'){
       return {
         backgroundColor: MKColor.Amber,
         borderColor: MKColor.Amber,
