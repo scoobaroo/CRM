@@ -5,6 +5,17 @@ import { StackNavigator } from 'react-navigation';
 import SalesOrderList from './src/components/SalesOrderList';
 import SalesOrderItem from './src/components/SalesOrderItem';
 import Login from './src/components/Login';
+import firebase from 'firebase';
+
+firebase.initializeApp({
+  apiKey: "AIzaSyDV1Kz5PcULAwCBmGXfZcPhuIZ69Lm0WpU",
+  authDomain: "issi-crm.firebaseapp.com",
+  databaseURL: "https://issi-crm.firebaseio.com",
+  projectId: "issi-crm",
+  storageBucket: "issi-crm.appspot.com",
+  messagingSenderId: "567548041578"
+});
+
 
 const routeConfiguration = {
   App: { screen: App },

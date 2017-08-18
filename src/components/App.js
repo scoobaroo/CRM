@@ -8,7 +8,7 @@ import AppNavigator from '../../index.ios';
 import { StackNavigator, NavigationActions } from 'react-navigation';
 import SalesOrderList from './SalesOrderList';
 import SalesOrderItem from './SalesOrderItem';
-
+import firebase from 'firebase';
 
 const styles = StyleSheet.create({
   container: {
@@ -27,7 +27,17 @@ export default class App extends Component {
   }
 
   state = { loggedIn: null};
-  
+
+  componentWillMount() {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        this.setState({ loggedIn: true });
+      } else {
+        this.setState({ loggedIn: false});
+      }
+    });
+  }
+
   updateState (data) {
     this.setState(data);
   }
@@ -37,10 +47,6 @@ export default class App extends Component {
   }
 
   renderView() {
-    console.log("App.js Props:");
-    console.log(this.props);
-    console.log("App.js State:");
-    console.log(this.state);
     switch (this.state.loggedIn) {
       case true:
         return <SalesOrderList navigation = {this.props.navigation} />

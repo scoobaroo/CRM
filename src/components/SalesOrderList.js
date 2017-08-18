@@ -6,6 +6,7 @@ import { loadOrders } from '../actions';
 import SalesOrderBox from './SalesOrderBox';
 import { StackNavigator } from 'react-navigation';
 import { MKTextField, MKColor, MKButton } from 'react-native-material-kit';
+import firebase from 'firebase';
 
 var salesOrderRequest = require('../reducers/salesOrderRequest.json');
 console.log(salesOrderRequest);
@@ -148,16 +149,20 @@ class SalesOrderList extends Component {
 
   componentDidMount(){
     //make XMLHTTPRequest()
-    console.log("SalesOrderList.js Props: ");
-    console.log(this.props);
-    console.log("SalesOrderList NavigationOptions: ");
-    console.log(SalesOrderList.navigationOptions);
   }
 
   static navigationOptions = ({navigation,screenProps}) => ({
     headerTitle: "Sales Orders",
     headerLeft: null,
-    headerRight: <Button title="Logout" onPress = {() => navigation.navigate('App')}/>
+    headerRight: <Button title="Logout" onPress = {() => 
+                                          firebase.auth().signOut().then(function() {
+                                            navigation.navigate('App')
+                                            alert("Successfully Signed Out!");
+                                          }, function(error) {
+                                            alert(error);
+                                            console.log(error);
+                                          })
+                }/>
   })
 
   renderView() {

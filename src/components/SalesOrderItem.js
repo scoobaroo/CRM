@@ -5,6 +5,7 @@ import * as actions from '../actions';
 import { MKTextField, MKColor, MKButton, getTheme } from 'react-native-material-kit';
 import Loader from './Loader';
 import SalesOrderDetail from './SalesOrderDetail';
+import firebase from 'firebase';
 
 var sampleSalesOrderDetail = require('../reducers/sampleSalesOrderDetails2.json');
 sampleSalesOrderDetail.map((detail)=>{
@@ -76,7 +77,15 @@ class SalesOrderItem extends Component {
 
   static navigationOptions = ({navigation,screenProps})=>({
     title: 'Sales Order Item',
-    headerRight: <Button title="Logout" onPress = {() => navigation.navigate('App')}/>
+    headerRight: <Button title="Logout" onPress={ () => 
+                                          firebase.auth().signOut().then(function() {
+                                            navigation.navigate('App')
+                                            alert("Successfully Signed Out!");
+                                          }, function(error) {
+                                            alert(error);
+                                            console.log(error);
+                                          }) 
+                }/>
   })
 
   componentDidMount(){
@@ -105,7 +114,7 @@ class SalesOrderItem extends Component {
       );
   } 
   render(){
-    const { navigate } = this.props.navigation
+    const { navigate } = this.props.navigation;
     return (
       <ScrollView
         contentContainerStyle={styles.container}
