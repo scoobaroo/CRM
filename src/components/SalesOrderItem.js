@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     height: 35,
-    width: 125
+    width: 160
   }
 });
 
@@ -66,7 +66,8 @@ class SalesOrderItem extends Component {
   }
   state = {
     salesorder : this.props.navigation.state.params.salesorder,
-    salesorderdetail: sampleSalesOrderDetail
+    salesorderdetail: sampleSalesOrderDetail,
+    rejectionreason: ""
   };
 
   updateOrderStatus(salesorder, status) {
@@ -132,16 +133,32 @@ class SalesOrderItem extends Component {
           renderRow={
             (rowData) =>
               <SalesOrderDetail
-                marginBottom = {5}
                 navigation={this.props.navigation}
                 salesorderdetail={rowData} />
           }
         />
       );
-  } 
+  }
+
+  updateState(data){
+    this.setState(data);
+  }
+
   render(){
     const { navigate } = this.props.navigation;
     const { salesorder } = this.props.navigation.state.params;
+    let {rejectionreason} = this.state;
+    let renderRejectionReason = () => {
+        if(rejectionreason != null) {
+            return (
+              <View>
+                <Text style={styles.labelText}> Rejection Reason: </Text>
+                <Text style={styles.baseText}> {this.state.rejectionreason} </Text>
+              </View>
+            )
+        } 
+    };
+    
     return (
       <ScrollView
         contentContainerStyle={styles.container}
@@ -159,14 +176,14 @@ class SalesOrderItem extends Component {
         <Text style={styles.baseText}> {this.state.salesorder.endcustomer} </Text>
         <Text style={styles.labelText}> Order Status: </Text>
         <Text style={styles.baseText}> {this.state.salesorder.orderstatus} </Text>
-        <RejectionModal />
+        {renderRejectionReason()}
         <View style={styles.buttonContainer}>
           <ApprovalButton style = {styles.button} onPress={this.approve.bind(this)} />
-          <RejectButton style = {styles.button} onPress={this.reject.bind(this)} />
+          <RejectionModal updateParentState = {this.updateState.bind(this)} style = {styles.button} onPress={this.reject.bind(this)} />
         </View>
         {this.renderDetails()}
       </ScrollView>
-  );
+    );
   }
 };
 
