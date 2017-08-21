@@ -8,9 +8,8 @@ import { StackNavigator } from 'react-navigation';
 import { MKTextField, MKColor, MKButton } from 'react-native-material-kit';
 import * as firebase from 'firebase';
 
-var salesOrderRequest = require('../reducers/salesOrderRequest.json');
-console.log(salesOrderRequest);
-salesOrderRequest.map((order)=>{
+var salesorders = require('../reducers/salesOrderRequest.json');
+salesorders.map((order)=>{
   order.name = order.Name;
   order.issisalesmanager = order.am_SalesManager.Name;
   order.issisalesperson = order.am_ISSISalesPerson.Name;
@@ -123,7 +122,7 @@ class SalesOrderList extends Component {
   constructor(props){
     super(props);
     this.state= {
-      salesOrderRequest,
+      salesorders,
       loading:false
     }
     // store.dispatch({
@@ -141,14 +140,21 @@ class SalesOrderList extends Component {
     //   this.props.loadInitialSalesOrders();
     // }
   filterByOrderStatus = (status) => {
-    let newList = salesOrderRequest.filter(salesorder => {
+    let newList = salesorders.filter(salesorder => {
         return salesorder.orderstatus == status;
     })
     this.dataSource = ds.cloneWithRows(newList);
   }
 
   componentDidMount(){
-    //make XMLHTTPRequest()
+    //make XMLHTTPRequest for sales order list 
+    function writeSalesOrderListData(salesorders) {
+      firebase.database().ref().set({
+        salesorders
+      });
+    }
+    console.log('making database call');
+    writeSalesOrderListData(salesorders) 
   }
 
   static navigationOptions = ({navigation,screenProps}) => ({
@@ -166,7 +172,7 @@ class SalesOrderList extends Component {
   })
 
   renderView() {
-    this.dataSource = ds.cloneWithRows(salesOrderRequest);
+    this.dataSource = ds.cloneWithRows(salesorders);
     return (
         <ListView
           automaticallyAdjustContentInsets={false}

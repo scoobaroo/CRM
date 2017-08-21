@@ -5,6 +5,7 @@ import { StackNavigator } from 'react-navigation';
 import SalesOrderList from './src/components/SalesOrderList';
 import SalesOrderItem from './src/components/SalesOrderItem';
 import Login from './src/components/Login';
+import Reject from './src/components/Reject';
 import * as firebase from 'firebase';
 
 const firebaseConfig = {
@@ -23,6 +24,7 @@ const routeConfiguration = {
   Login: { screen: Login },
   SalesOrderList : { screen: SalesOrderList },     
   SalesOrderItem : { screen: SalesOrderItem },
+  Reject : { screen: Reject }
 };
 
 const stackNavigatorConfiguration = {

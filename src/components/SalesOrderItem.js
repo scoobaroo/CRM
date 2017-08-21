@@ -6,7 +6,6 @@ import { MKTextField, MKColor, MKButton, getTheme } from 'react-native-material-
 import Loader from './Loader';
 import SalesOrderDetail from './SalesOrderDetail';
 import * as firebase from 'firebase';
-import RejectionModal from './RejectionModal';
 
 var sampleSalesOrderDetail = require('../reducers/sampleSalesOrderDetails2.json');
 sampleSalesOrderDetail.map((detail)=>{
@@ -34,8 +33,8 @@ const theme = getTheme();
 
 const styles = StyleSheet.create({
   container:{
+    marginTop: 10,
     alignItems: 'center',
-    marginTop: 20
   },
   baseText: {
     fontSize : 16,
@@ -66,7 +65,8 @@ class SalesOrderItem extends Component {
   }
   state = {
     salesorder : this.props.navigation.state.params.salesorder,
-    salesorderdetail: sampleSalesOrderDetail
+    salesorderdetail: sampleSalesOrderDetail,
+    rejectionreason: ""
   };
 
   updateOrderStatus(salesorder, status) {
@@ -139,9 +139,23 @@ class SalesOrderItem extends Component {
         />
       );
   } 
+  updateState(rejectionreason){
+    this.setState(rejectionreason);
+  }
   render(){
     const { navigate } = this.props.navigation;
     const { salesorder } = this.props.navigation.state.params;
+    let rejectionreason = this.state.rejectionreason;
+    let renderRejectionReason = () => {
+        if(rejectionreason != "") {
+            return (
+              <View style = {{alignItems: 'center'}}>
+                <Text style={styles.labelText}>Rejection Reason:</Text>
+                <Text style={styles.baseText}>{rejectionreason}</Text>
+              </View>
+            )
+        } 
+    };
     return (
       <ScrollView
         contentContainerStyle={styles.container}
@@ -159,10 +173,11 @@ class SalesOrderItem extends Component {
         <Text style={styles.baseText}> {this.state.salesorder.endcustomer} </Text>
         <Text style={styles.labelText}> Order Status: </Text>
         <Text style={styles.baseText}> {this.state.salesorder.orderstatus} </Text>
-        <RejectionModal />
+        {renderRejectionReason()}
         <View style={styles.buttonContainer}>
           <ApprovalButton style = {styles.button} onPress={this.approve.bind(this)} />
-          <RejectButton style = {styles.button} onPress={this.reject.bind(this)} />
+          <RejectButton style = {styles.button} onPress={()=> navigate('Reject',
+            {reject:this.reject.bind(this),updateParentState:this.updateState.bind(this)})} />
         </View>
         {this.renderDetails()}
       </ScrollView>
