@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     height: 35,
-    width: 125
+    width: 160
   }
 });
 
@@ -132,7 +132,6 @@ class SalesOrderItem extends Component {
           renderRow={
             (rowData) =>
               <SalesOrderDetail
-                marginBottom = {5}
                 navigation={this.props.navigation}
                 salesorderdetail={rowData} />
           }
@@ -181,7 +180,7 @@ class SalesOrderItem extends Component {
         </View>
         {this.renderDetails()}
       </ScrollView>
-  );
+    );
   }
 };
 
